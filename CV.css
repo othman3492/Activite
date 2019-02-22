@@ -1,0 +1,149 @@
+@font-face 
+{
+	font-family:"BatmanForeverAlternate";
+	src:url("fonts/batmfa.eot") format("eot"),
+		url("fonts/batmfa.woff") format("woff"),
+		url("fonts/batmfa.ttf") format("truetype"),
+		url("fonts/batmfa.svg#BatmanForeverAlternate") format("svg");
+		font-weight:normal;
+		font-style:normal;
+}
+
+body
+{
+	background: black;
+	background-image: url(https://images.wallpaperscraft.com/image/surface_dark_background_texture_50754_2560x1440.jpg);
+	color: white;
+	font-family: batmanforeveralternate;
+}
+
+h1
+{
+	text-align: center;
+	font-size: xx-large;
+	text-shadow: 2px 2px 5px black;
+}
+
+header
+{
+	margin-bottom: 200px;
+}
+
+@media all and (max-width: 1024px)
+{
+	header
+	{
+		margin-bottom: 150px;
+	}
+}
+
+.image_batman
+{
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px white;
+}
+
+section
+{
+	display: flex;
+}
+
+@media all and (max-width: 1024px)
+{
+	section
+	{
+		flex-direction: column;
+	}
+}
+
+aside
+{
+	width: 6.5%;
+	float: left;
+	margin-top: 0;
+}
+
+aside img
+{
+	border-radius: 10px;
+	max-height: 720px;
+	box-shadow: 3px 3px 10px black;
+}
+
+@media all and (max-width: 1024px)
+{
+	aside
+	{
+		display: none;
+	}
+}
+
+.experience
+{
+	width: 25%;
+	padding-right: 60px;
+	margin-left: 60px;
+}
+
+.competences
+{
+	width: 30%;
+}
+
+.formation
+{
+	width: 25%;
+}
+
+@media all and (max-width: 1024px)
+{
+	.experience, .competences, .formation
+	{
+		margin-left: 0;
+		width: auto;
+	}
+}
+
+
+ul
+{
+
+	padding-left: 15px;
+	list-style-type: square;
+}
+
+h2
+{
+	clear: both;
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px white;
+}
+
+.description
+{
+	text-align: center;
+}
+
+.experience strong
+{
+	color: yellow;
+}
+
+img
+{
+	float: right;
+}
+
+.youtube
+{
+	border: white solid 3px;
+	border-radius: 10px;
+	color: black;
+	background: white;
+}
+
+a:hover
+{
+	color: red;
+}
+
